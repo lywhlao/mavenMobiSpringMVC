@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.desc-font{
+  font-size:13px;
+}
+.desc-margin{
+  margin : 10px 0px 15px 5px;
+}
+
+.list-title{
+   font-size:20px;
+}
+.list-item{
+   font-size:15px;
+}
+
+.popover{
+    width:250px;
+}
